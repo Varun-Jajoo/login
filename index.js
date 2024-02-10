@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json())
 mongoose.connect("mongodb+srv://varunjajoo18:cdvutJLAbcbX5BGl@cluster0.6q3svxa.mongodb.net/");
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'https://haerm.netlify.app/'
 }));
 //cdvutJLAbcbX5BGl
 
